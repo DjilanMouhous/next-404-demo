@@ -28,7 +28,7 @@ export async function getSingleDummyPage(
 
 function createPage(data: any): SingleDummyPage {
   // In order to simulate an api inconsistency, we will return an error according to the current time
-  // Please set the time to your build time to see the error
+  // Please set the time to your build time to see the error (the moment you will run the build command)
   // Let's say the build time is 09:20
   // Until 09:25 the page will be rendered without error
   // After 09:25 and until 09:30 the page will be rendered with error which will lead to a 404 page with the error message "Error found in page"
